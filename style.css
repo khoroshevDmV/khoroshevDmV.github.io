@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: chocolate;
+    font-size: large;
+}
+.main {
+    margin: 0;
+    padding: 0;
+}
+.name {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.name p {
+    color: cornsilk;
+}
+.name span {
+    text-transform: uppercase;
+    font-size: 2em;
+    /*background-color: rgba(199, 199, 199, 0.4);*/
+}
+.hystorical_person, .science_person, .cosmo_person, .sport_person, .future_person {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.hystorical_person {
+    background-color: olivedrab;
+    color: bisque;
+    padding-top: 1em;
+}
+.science_person {
+    background-color:royalblue;
+    color: bisque;
+    padding-top: 1em;
+}
+.cosmo_person {
+    background-color:rgb(140, 71, 204);
+    color: bisque;
+    padding-top: 1em;
+}
+.sport_person {
+    background-color:rgb(238, 221, 73);
+    color: rgb(36, 20, 2);
+    padding-top: 1em;
+}
+.future_person {
+    background-color:rgb(192, 66, 114);
+    color: bisque;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.hystorical_person span, .science_person span, .cosmo_person span, .sport_person span, .future_person span {
+    text-transform: uppercase;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    border-radius: 30%;
+}
+.person1, .person2 {
+    position: relative;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 4em;
+}
+img {
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+    width: 30%;
+    transition: transform 2s;
+    overflow: hidden;
+}
+img:hover {
+    transform: scale(1.2);
+}
+.first_img {
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.second_p {
+    width: 95%;
+}
+.first_p {
+    width: 65%;
+    float: left;
+    margin-left: 1em;
+}
+.second_img {
+    width: 30%;
+    margin-left: 1em;
+}
